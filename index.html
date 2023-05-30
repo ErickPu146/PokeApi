@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON API</title>
+    <link rel="stylesheet" href="./Assets/bootstrapAssets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md bg-dark" style=" height: auto;">
+            <div class="container-fluid bg-dark">
+                <img class="navbar-brand" src="./img/logo.png" alt="logo" style="height: 60px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <div class="d-flex" role="search">
+                        <input id="inputBuscar" class="form-control me-2 class_input" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button id="buscar" class="btn btn-success btn-opacity-50">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid py-3">
+        <div class="container">
+            <div class="row justify-content-between mt-4 mb-3">
+                <button id="previous" class="btn btn-danger col-5 col-md-3">
+                    Regresar
+                </button>
+                <button id="next" class="btn btn-primary col-5 col-md-3">
+                    Siguiente
+                </button>
+            </div>
+            <div class="pokemon-container row gy-3">
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./Assets/js/index.js" type="module"></script>
+    <script src="./Assets/bootstrapAssets/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
